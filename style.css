@@ -34,11 +34,7 @@ h1 {
     text-align: center;
 
 }
-.row span:first-child:hover {
-    background-color:rgb(11, 76, 78);
-    color: #fff;
-}
-.row span:last-child:hover{
+.row span:hover {
     background-color:rgb(11, 76, 78);
     color: #fff;
 }
@@ -73,7 +69,7 @@ h1 {
         margin: 0 auto;
     }
     .div-row {
-        width: 70%;
+        width: 60%;
         margin: 0 auto;
         text-align: center;
     }

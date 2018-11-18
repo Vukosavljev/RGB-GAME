@@ -1,37 +1,81 @@
-html, body {
+html, body, * {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
     text-align: center;
     box-sizing: border-box;
 }
 .header {
-    height: 30%;
-    background-color: cadetblue;
+    background-color: rgb(11, 76, 78);
+    color: #fff;
     width: 100%;
-}
-h3 {
-    margin: 0 auto;
-}
-.row {
-    background-color: #fff;
-    width: 100%;
-    height: 10%;
-}
-p {
-    margin: 0;
     padding: 10px;
 }
-.squares {
-    height: 60%;
-    background-color: rgb(48, 44, 44);
-    padding-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
+h1 {
+    font-size: 2.5em;
 }
-.squares div {
-    height: 200px;
-    width: 200px;
-    border-radius: 20px;
+
+.row {
+    background-color: #fff;
+    max-width: 100%;
+    margin: 0;
+}
+.row p {
+    height: 25px;
+    font-size: 1.1em;
+}
+
+.row p span {
+    display: inline-block;
+    width: auto;
+    padding: 0 10%;
+    margin: 0;
+    font-weight: bolder;
+    text-align: center;
+
+}
+.row span:first-child:hover {
+    background-color:rgb(11, 76, 78);
+    color: #fff;
+}
+.row span:last-child:hover{
+    background-color:rgb(11, 76, 78);
+    color: #fff;
+}
+.squares {
+    background-color: rgb(48, 44, 44);
+    width: 100%;
+    margin: 0 auto;
+    padding: 2% 0;
+}
+.div-row div {
+    display: inline-block;
+    width: 30%;
+    padding-top: 30%;
+    margin: 0 3px;
+    border-radius: 15%;
+}
+.selected {
+    background-color:rgb(11, 76, 78);
+    color: #fff;
+}
+
+@media (min-width: 700px){
+    h1 {
+        font-size: 4em;
+    }
+    h3 {
+        font-size: 2em;
+    }
+    .row {
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .div-row {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
 }

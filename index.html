@@ -11,29 +11,42 @@
 
 <body>
     <div class="header">
-        <h3>THE GREAT</h3>
+        <h3>THE GREATEST</h3>
         <h1>RGB
             <span id="color"></span>
         </h1>
         <h3>GUESSING GAME</h3>
     </div>
     <div class="row">
-        <p>
-            <span>New colors</span>
-            <span>Try again</span>
-            <span>Easy Hard</span>
+        <p><span id="newColors">New colors</span>
+            <span id="message"></span>
+        </p>
+        <p class="levels">
+            <span id="easy" class="selected">Easy </span> 
+            <span id="hard">Hard</span>
+            <span id="pro">Pro</span>
         </p>
     </div>
     <div class="squares">
-        <div id="one"></div>
-        <div id="two"></div>
-        <div id="three"></div>
-        <div id="four"></div>
-        <div id="five"></div>
-        <div id="six"></div>
-        <div id="seven"></div>
-        <div id="eight"></div>
+        <div class="div-row">
+            <div id="one"></div>
+            <div id="two"></div>
+            <div id="three"></div>
+        </div>
+        <div class="div-row">
+            <div id="four"></div>
+            <div id="five"></div>
+            <div id="six"></div>
+        </div>
+        <div class="div-row">
+            <div id="seven"></div>
+            <div id="eight"></div>
+            <div id="nine"></div>
+        </div>
     </div>
+    <footer>
+        <p class="row">&copy;GREATESTGAME.com 2018</p>
+    </footer>
     <script src="javascript.js"></script>
 </body>
 
